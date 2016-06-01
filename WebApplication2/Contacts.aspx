@@ -1,7 +1,9 @@
-﻿<%@ Page Title="Contacts" Language="C#" MasterPageFile="~/MasterSite2.Master" AutoEventWireup="true" CodeBehind="Contacts.aspx.cs" Inherits="WebApplication2.Contacts" %>
+﻿<%-- Desc: This is the Contacts page --%>
+<%@ Page Title="Contacts" Language="C#" MasterPageFile="~/MasterSite2.Master" AutoEventWireup="true" CodeBehind="Contacts.aspx.cs" Inherits="WebApplication2.Contacts" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="container">
         <div class="col-md-4">
+            <%-- Contact info Panel --%>
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <div class="panel-title">Contact Info</div>
@@ -15,6 +17,7 @@
             </div>
         </div>
         </div>
+         <%-- Contact Form --%>
         <div class="col-md-6">
         <h1>Contact!</h1>
         <div class="form-group">

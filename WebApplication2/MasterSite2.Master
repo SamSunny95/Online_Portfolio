@@ -1,4 +1,11 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterSite2.master.cs" Inherits="WebApplication2.MasterSite2" %>
+﻿<%-- 
+    File Name: Site.Master
+    Author: Sam Parathuvayalil Sunny
+    Website Name: My Personal Online Portfolio
+    Description: This is the master page which controls the contacts page.
+     --%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterSite2.master.cs" Inherits="WebApplication2.MasterSite2" %>
 <%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
 
 <!DOCTYPE html>
