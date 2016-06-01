@@ -1,4 +1,11 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2.Default" %>
+﻿<%-- 
+    File Name: Default.aspx
+    Author: Sam Parathuvayalil Sunny
+    Website Name: My Personal Online Portfolio
+    Description: This is the Home Page.
+     --%>
+
+<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2.Default" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="height: 93%;width: 98%;left: 1%;   opacity: .6;position: relative; top: 40px;border-radius: 20px" class="panel panel-heading">
