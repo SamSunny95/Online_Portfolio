@@ -26,7 +26,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body style="background-image: url(Content\bgimage.jpg)">
+<body>
     <form id="form1" runat="server">
         <%-- Navbar --%>
     <bs3:Navbar runat="server"></bs3:Navbar>
