@@ -22,10 +22,11 @@
     <%-- Including Bootstrap --%>
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body style="backgroundimage: url(Content/bgimage.jpg);">
+<body style="background-image: url(Content\bgimage.jpg)">
     <form id="form1" runat="server">
         <%-- Navbar --%>
     <bs3:Navbar runat="server"></bs3:Navbar>

@@ -72,6 +72,8 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Contacts.aspx" />
+    <Content Include="Content\app.css" />
+    <Content Include="Content\bgimage.jpg" />
     <Content Include="images\bgimage.jpg" />
     <Content Include="packages.config" />
     <Content Include="Projects.aspx" />
